@@ -15,6 +15,10 @@ public class Primenumber {
             System.out.println("Fizz");
             return true;
         }
+        if(n == 4){
+            System.out.println("Buzz");
+            return false;
+        }
         return false;
      }
 }
