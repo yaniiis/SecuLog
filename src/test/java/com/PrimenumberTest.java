@@ -24,5 +24,9 @@ public class PrimenumberTest {
         assertEquals(true, Primenumber.isPrime(2));
     }
 
+    @Test
+    void is3PrimeNumber() {
+        assertEquals(true, Primenumber.isPrime(3));
+    }
 
 }
