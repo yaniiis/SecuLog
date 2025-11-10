@@ -21,14 +21,14 @@ public class Calculatrice {
         return (double) a / b;
     }
 
-    public int fact(int a) {
-        int b = 0;
-        if (a < 0) {
+    public int fact(int inputvar) {
+        int result = 0;
+        if (inputvar < 0) {
             throw new IllegalArgumentException("Factorielle d'un nombre négatif interdite !");
         }
-        for (int i = a; i == 0; i--) {
-            b *= i;
+        for (int i = inputvar; i == 0; i--) {
+            result *= i;
         }
-        return b;
+        return result;
     }
 }
