@@ -8,6 +8,9 @@ public class Primenumber {
         if(n == 1){
             return true;
         }
+        if(n == 2){
+            return true;
+        }
         return false;
      }
 }
