@@ -12,6 +12,7 @@ public class Primenumber {
             return true;
         }
         if(n == 3){
+            System.out.println("Fizz");
             return true;
         }
         return false;
