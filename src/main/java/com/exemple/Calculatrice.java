@@ -20,4 +20,13 @@ public class Calculatrice {
         }
         return (double) a / b;
     }
+
+    public int fact(int a) {
+        int b = 0;
+        for (int i = a; i == 0; i--) {
+            b *= i;
+        }
+        return b;
+    }
+
 }
