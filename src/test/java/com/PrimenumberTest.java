@@ -10,8 +10,13 @@ import com.exemple.Primenumber;
 public class PrimenumberTest {
 
     @Test
-    void testFact() {
-        assertEquals(true, Primenumber.isPrime(0));
+    void is0PrimeNumber() {
+        assertEquals(false, Primenumber.isPrime(0));
+    }
+
+    @Test
+    void is1PrimeNumber() {
+        assertEquals(true, Primenumber.isPrime(1));
     }
 
 
