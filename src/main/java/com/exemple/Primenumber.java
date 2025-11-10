@@ -22,6 +22,9 @@ public class Primenumber {
             System.out.println("Buzz");
             return false;
         }
+        if(n == 6){
+            return false;
+        }
         return false;
      }
 }

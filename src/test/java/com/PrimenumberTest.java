@@ -39,4 +39,9 @@ public class PrimenumberTest {
         assertEquals(false, Primenumber.isPrime(5));
     }
 
+    @Test
+    void is6PrimeNumber() {
+        assertEquals(false, Primenumber.isPrime(6));
+    }
+
 }
