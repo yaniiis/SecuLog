@@ -33,6 +33,10 @@ class CalculatriceTest {
         assertThrows(IllegalArgumentException.class, () -> calc.diviser(2, 0));
     }
 
+    @Test
+    void testFact() {
+        assertThrows(IllegalArgumentException.class, () -> calc.fact(-5));
+    }
 
 
 
