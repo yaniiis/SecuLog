@@ -19,5 +19,10 @@ public class PrimenumberTest {
         assertEquals(true, Primenumber.isPrime(1));
     }
 
+    @Test
+    void is2PrimeNumber() {
+        assertEquals(true, Primenumber.isPrime(2));
+    }
+
 
 }
