@@ -5,6 +5,9 @@ public class Primenumber {
         if(n == 0){
             return false;
         }
+        if(n == 1){
+            return true;
+        }
         return false;
      }
 }
