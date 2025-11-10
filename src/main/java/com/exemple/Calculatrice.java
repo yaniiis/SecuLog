@@ -15,6 +15,9 @@ public class Calculatrice {
     }
 
     public double diviser(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Division par zéro interdite !");
+        }
         return (double) a / b;
     }
 }
